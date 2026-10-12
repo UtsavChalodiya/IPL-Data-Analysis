@@ -1,164 +1,81 @@
-# IPL-Data-Analysis
-IPL Data Analytics Project using Python: Team Efficiency, Player Performance, Pressure Analysis &amp; Match Strategy Insights with advanced visualizations.
-# 🏏 IPL Data Analytics Project
+# IPL Data Analysis
 
-### Team Efficiency, Player Performance & Match Strategy Analysis
+A Python-based analysis of Indian Premier League (IPL) match and ball-by-ball data, focused on team efficiency, player performance, toss decisions, and performance under pressure.
 
----
+## Project overview
 
-## 📌 Overview
+This project explores how match-level results and delivery-level data can be combined to move beyond basic scorecards and investigate patterns behind team and player performance.
 
-This project presents a comprehensive data analysis of the Indian Premier League (IPL) using Python. The goal is to move beyond basic statistics and uncover deeper insights into team performance, player impact, and match-winning strategies.
+## Questions explored
 
-The analysis integrates ball-by-ball and match-level datasets to evaluate performance using advanced metrics such as efficiency index and pressure performance.
+- Do higher-scoring teams necessarily convert performances into wins?
+- How do batter run totals compare with strike rate?
+- Which bowlers combine wicket-taking impact with economical bowling?
+- How does the toss decision relate to outcomes across venues?
+- What can pressure-focused metrics reveal about performance in late overs?
 
----
+## Analysis and visualisations
 
-## 🎯 Objectives
+The project includes analytical charts and summaries covering:
 
-* Analyze team performance based on scoring and win efficiency
-* Evaluate batsmen using strike rate and total runs
-* Assess bowlers using economy rate and wicket-taking ability
-* Study the impact of toss decisions across venues
-* Develop advanced metrics like **Efficiency Index** and **Pressure Efficiency**
+- Team scoring and win performance
+- Batter output and scoring rate
+- Bowler economy and wicket-taking
+- Toss decisions and match outcomes
+- Team efficiency and pressure performance
 
----
+The analysis uses descriptive statistics and visual comparisons to identify patterns. These are exploratory findings, not proof that any single factor causes a match result.
 
-## 📊 Key Features
+## Tech stack
 
-### 🔹 Team Performance Analysis
+- **Python**
+- **Pandas** for data preparation and analysis
+- **NumPy** for numerical operations
+- **Matplotlib** and **Seaborn** for visualisation
+- **Jupyter Notebook** for exploratory analysis, where included
 
-* Comparison of average score vs win percentage
-* Identification of efficient vs inefficient teams
-
-### 🔹 Batsman Analysis
-
-* Strike rate vs total runs (bubble chart)
-* Identification of aggressive and consistent players
-
-### 🔹 Bowler Analysis
-
-* Economy rate vs wickets (quadrant analysis)
-* Classification of bowlers based on performance
-
-### 🔹 Toss Impact Analysis
-
-* Venue-based toss decision insights
-* Strategic advantage of batting vs fielding
-
-### 🔹 Advanced Analytics
-
-* **Efficiency Index** → Measures how effectively teams convert runs into wins
-* **Pressure Efficiency** → Measures performance in high-pressure situations (death overs)
-
----
-
-## 📈 Visualizations
-
-The project includes the following professional visualizations:
-
-* 📊 Bar + Line Chart (Team Performance)
-* 🔵 Bubble Chart (Batsman Analysis)
-* 🎯 Quadrant Scatter Plot (Bowler Analysis)
-* 📉 Grouped Bar Chart (Toss Impact)
-* 📋 Styled Analytical Table (Team Efficiency Report)
-
----
-
-## 🧠 Key Insights
-
-* High scoring does not guarantee match success
-* Balanced batsmen (strike rate + consistency) are most impactful
-* Effective bowlers balance economy and wicket-taking ability
-* Toss decisions significantly depend on venue conditions
-* Teams performing well under pressure tend to win more consistently
-
----
-
-## 🛠️ Tech Stack
-
-* **Python**
-* **Pandas** – Data manipulation
-* **Matplotlib & Seaborn** – Data visualization
-* **NumPy** – Numerical operations
-
----
-
-## 📂 Project Structure
-
-```
-IPL-Data-Analytics/
-│
-├── data/
-│   ├── deliveries.csv
-│   ├── matches.csv
-│
-├── notebooks/
-│   └── analysis.ipynb
-│
-├── images/
-│   ├── team_performance.png
-│   ├── batsman_analysis.png
-│   ├── bowler_analysis.png
-│   ├── toss_impact.png
-│   ├── team_efficiency.png
-│
-├── src/
-│   └── analysis.py
-│
-├── README.md
-└── requirements.txt
-```
-
----
-
-## ▶️ How to Run
+## Getting started
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/ipl-data-analytics.git
-```
+   ```bash
+   git clone https://github.com/UtsavChalodiya/IPL-Data-Analysis.git
+   cd IPL-Data-Analysis
+   ```
 
-2. Install dependencies:
+2. Create and activate a virtual environment (recommended):
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   python -m venv .venv
+   ```
 
-3. Run the script:
+   Windows:
+   ```bash
+   .venv\Scripts\activate
+   ```
 
-```bash
-python analysis.py
-```
+   macOS/Linux:
+   ```bash
+   source .venv/bin/activate
+   ```
 
----
+3. Install the libraries used by the analysis:
 
-## 📌 Results
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
 
-The project successfully demonstrates how advanced analytics can provide deeper insights into cricket performance by combining multiple metrics instead of relying on traditional statistics.
+4. Open any included notebook in Jupyter, or run the project script from its actual location in the repository.
 
----
+## Repository
 
-## 🚀 Future Improvements
+[View the source code and analysis files](https://github.com/UtsavChalodiya/IPL-Data-Analysis)
 
-* Build an interactive dashboard using Plotly or Power BI
-* Apply machine learning models for match prediction
-* Add player-level pressure analysis
-* Real-time data integration
+## Author
 
----
-
-## 📜 License
-
-This project is for educational and analytical purposes.
-
----
-
-## 👤 Author
-
-**Your Name**
-
-* GitHub: https://github.com/your-username
+**Utsav Chalodiya**  
+[GitHub profile](https://github.com/UtsavChalodiya)
 
 ---
+
+This project was created for learning and portfolio purposes.
