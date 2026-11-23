@@ -1,40 +1,33 @@
 # IPL Data Analysis
 
-A Python-based analysis of Indian Premier League (IPL) match and ball-by-ball data, focused on team efficiency, player performance, toss decisions, and performance under pressure.
-
-## Project overview
-
-This project explores how match-level results and delivery-level data can be combined to move beyond basic scorecards and investigate patterns behind team and player performance.
+A Python analytics project exploring Indian Premier League match and ball-by-ball data. The analysis looks beyond scorecards to compare team efficiency, player output, bowling performance, toss decisions and performance in pressure situations.
 
 ## Questions explored
 
-- Do higher-scoring teams necessarily convert performances into wins?
+- Do higher-scoring teams consistently convert runs into wins?
 - How do batter run totals compare with strike rate?
 - Which bowlers combine wicket-taking impact with economical bowling?
-- How does the toss decision relate to outcomes across venues?
-- What can pressure-focused metrics reveal about performance in late overs?
+- How are toss decisions associated with match outcomes across venues?
+- What can late-over performance reveal about teams under pressure?
 
-## Analysis and visualisations
-
-The project includes analytical charts and summaries covering:
+## Analysis areas
 
 - Team scoring and win performance
 - Batter output and scoring rate
 - Bowler economy and wicket-taking
 - Toss decisions and match outcomes
-- Team efficiency and pressure performance
+- Team efficiency and pressure-focused comparisons
 
-The analysis uses descriptive statistics and visual comparisons to identify patterns. These are exploratory findings, not proof that any single factor causes a match result.
+The project uses descriptive analysis and visual comparisons. These are exploratory associations, not proof that a single factor causes a match result.
 
-## Tech stack
+## Technology
 
-- **Python**
-- **Pandas** for data preparation and analysis
-- **NumPy** for numerical operations
-- **Matplotlib** and **Seaborn** for visualisation
-- **Jupyter Notebook** for exploratory analysis, where included
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook
 
-## Getting started
+## Run the project
 
 1. Clone the repository:
 
@@ -43,39 +36,31 @@ The analysis uses descriptive statistics and visual comparisons to identify patt
    cd IPL-Data-Analysis
    ```
 
-2. Create and activate a virtual environment (recommended):
+2. Create and activate a virtual environment:
 
    ```bash
    python -m venv .venv
-   ```
-
-   Windows:
-   ```bash
+   # Windows
    .venv\Scripts\activate
-   ```
-
-   macOS/Linux:
-   ```bash
+   # macOS / Linux
    source .venv/bin/activate
    ```
 
-3. Install the libraries used by the analysis:
+3. Install the analysis libraries:
 
    ```bash
    pip install pandas numpy matplotlib seaborn jupyter
    ```
 
-4. Open any included notebook in Jupyter, or run the project script from its actual location in the repository.
+4. Open the notebook in Jupyter and run its cells in order. Keep the source CSV files in the locations expected by the notebook.
 
-## Repository
+## Reproducibility and interpretation
 
-[View the source code and analysis files](https://github.com/UtsavChalodiya/IPL-Data-Analysis)
+The notebook expects match-level and delivery-level CSV data. Check the input paths in the notebook before running it on a new machine. Add the dataset source and licence here when redistributing or sharing the data.
+
+When presenting results, include the date range, sample size and definitions used for metrics such as team efficiency and pressure performance.
 
 ## Author
 
 **Utsav Chalodiya**  
 [GitHub profile](https://github.com/UtsavChalodiya)
-
----
-
-This project was created for learning and portfolio purposes.
